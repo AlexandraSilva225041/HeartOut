@@ -5,20 +5,33 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
+	font-family: Roboto, sans-serif;
 	background-color: #fffcf8;
 }
+
+  .roboto-regular {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
 
 /* Changing the background colour for the header */
 
 header {
+	font-family: "MedievalSharp", sans-serif;
 	background-color: #000060;
 }
+
+.medievalsharp-regular {
+	font-family: "MedievalSharp", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
 
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #D9D9D9;
 }
 
 /* Effect on social media buttons */
@@ -30,7 +43,7 @@ footer a:hover {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
+	color: #1E1E1E;
 	font-weight: bold;
 }
 
