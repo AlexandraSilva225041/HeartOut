@@ -42,3 +42,20 @@ footer a:hover {
 		0 0 .2em white,
 		0 0 .5em white;
 }
+.passion {
+	color: white;
+	background-color: #AE0909
+}
+.loyalty {
+	color: white;
+	background-color: #49662C
+}
+.safety {
+	color: white;
+	background-color: #FF8000
+}
+.present {
+	color: white;
+	background-color: #2E0038
+}
+		
