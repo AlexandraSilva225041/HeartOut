@@ -5,15 +5,9 @@
 /* Changing the main font and background colour */
 
 body {
-	font-family: "MedievalSharp", "Roboto", sans-serif;
+	font-family: Roboto, sans-serif;
 	background-color: #fffcf8;
 }
-
-.medievalsharp-regular {
-	font-family: "MedievalSharp", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-  }
 
   .roboto-regular {
 	font-family: "Roboto", sans-serif;
@@ -25,7 +19,6 @@ body {
 
 header {
 	background-color: #000060;
-	font: "MedievalSharp"
 }
 
 /* Changing the background color for the navigation bar */
