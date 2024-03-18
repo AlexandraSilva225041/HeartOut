@@ -17,7 +17,7 @@ body {
 
 /* Changing the background colour for the header */
 
-header {
+h1 {
 	font-family: "MedievalSharp", sans-serif;
 	background-color: #000060;
 }
@@ -71,5 +71,3 @@ footer a:hover {
 	color: white;
 	background-color: #2E0038
 }
-=======
->>>>>>> 1e053a1d9c3e55e6d823e5c201fb57ca036d8e98
