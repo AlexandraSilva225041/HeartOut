@@ -17,7 +17,7 @@ body {
 
 /* Changing the background colour for the header */
 
-h1 {
+header {
 	font-family: "MedievalSharp", sans-serif;
 	background-color: #000060;
 }
