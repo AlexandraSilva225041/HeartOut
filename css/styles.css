@@ -275,3 +275,12 @@ img {
   float: left;
   color: #999;
 }
+.card-text{
+	color: black;
+}
+.card-title{
+	color: black;
+}
+.card-body{
+	color: black;
+}
