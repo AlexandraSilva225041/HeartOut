@@ -6,7 +6,8 @@
 
 body {
 	font-family: Roboto, sans-serif;
-	background-color: #fffcf8;
+  color:#fffcf8;
+	background-color: #1e1e1e;
 }
 
   .roboto-regular {
@@ -48,12 +49,6 @@ footer a:hover {
 #navbar-corporate a.active {
 	color: #D9D9D9;
 	font-weight: bold;
-}
-
-.indexbody {
-	font-family: Roboto, sans-serif;
-  color:#fffcf8;
-	background-color: #1e1e1e;
 }
 
 /* Hero Section shadow */
