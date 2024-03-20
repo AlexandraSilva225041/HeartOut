@@ -180,7 +180,7 @@ img {
 /* Chat containers */
 .tcontainer {
   border: 2px solid #dedede;
-  background-color: #1e1e1e;
+  background-color: #2e0038;
   border-radius: 5px;
   padding: 10px;
   margin: 10px 0;
@@ -188,9 +188,8 @@ img {
 
 /* Darker chat container */
 .tdarker {
-  color:#1e1e1e;
   border-color: #ccc;
-  background-color: #dedede;
+  background-color: #49662c;
 }
 
 /* Clear floats */
