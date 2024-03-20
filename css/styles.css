@@ -58,6 +58,12 @@ footer a:hover {
 		0 0 .2em white,
 		0 0 .5em white;
 }
+
+.rightbox{
+  color: #000;
+  background-color:#AE0909;
+}
+
 .passion {
 	color: white;
 	background-color: #AE0909
