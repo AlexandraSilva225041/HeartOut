@@ -50,6 +50,12 @@ footer a:hover {
 	font-weight: bold;
 }
 
+.indexbody {
+	font-family: Roboto, sans-serif;
+  color:#fffcf8;
+	background-color: #1e1e1e;
+}
+
 /* Hero Section shadow */
 
 .white-shadow {
