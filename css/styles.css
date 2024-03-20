@@ -9,13 +9,11 @@ body {
   color:#fffcf8;
 	background-color: #1e1e1e;
 }
-
   .roboto-regular {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-  }
-
+}
 /* Changing the background colour for the header */
 
 h1, h2, h3, h4, h5, h6 {
@@ -225,6 +223,55 @@ img {
 
 /* Style time text */
 .ttime-left {
+  float: left;
+  color: #999;
+}
+/* Chat containers BIG CHAT BOX SO ITS A COPY*/
+.bcontainer {
+  border: 2px solid #dedede;
+  background-color: #1e1e1e;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.bdarker {
+  border-color: #ccc;
+  background-color: #1e1e1e;
+}
+
+/* Clear floats */
+.bcontainer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.bcontainer img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.bcontainer img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style time text */
+.btime-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.btime-left {
   float: left;
   color: #999;
 }
