@@ -112,3 +112,6 @@ img {
   transform: translate(-50%, -50%); /* Position text in the middle */
   mix-blend-mode: screen; /* This makes the cutout text possible */
 }
+.checked {
+  color: orange;
+}
