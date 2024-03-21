@@ -133,6 +133,12 @@ img {
   background-size: cover;
   background-position: center;
 }
+.choose-background {
+  background-image: url("../images/upload-image.png"); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  color: #1e1e1e;
+}
 /* Chat containers */
 .tcontainer {
   border: 2px solid #dedede;
