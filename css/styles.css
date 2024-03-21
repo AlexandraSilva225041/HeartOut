@@ -128,12 +128,48 @@ img {
   color: white;
   font-size: 20px;
 }
-.with-background {
+.one-background {
   background-image: url("../images/card-one.jpg"); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
   background-size: cover;
   background-position: center;
 }
-.choose-background {
+.two-background {
+  background-image: url("../images/card-two.jpg"); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+	}
+.three-background {
+  background-image: url("../images/card-three.jpg"); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+}
+.four-background {
+  background-image: url("../images/card-four.jpg"); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+}
+.five-background {
+  background-image: url("../images/card-five.jpg"); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+}
+.six-background {
+  background-image: url("../images/card-six.jpg"); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+}
+
+.seven-background {
+  background-image: url("../images/card-seven.jpg"); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+}
+.eight-background {
+  background-image: url("../images/card-eight.jpg"); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+}
+	.choose-background {
   background-image: url("../images/upload-image.png"); /* Replace 'path_to_your_image.jpg' with the actual path to your image */
   background-size: cover;
   background-position: center;
