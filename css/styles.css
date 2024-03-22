@@ -135,6 +135,13 @@ img {
 .checked {
   color: orange;
 }
+.star-container {
+  display: inline-block;
+}
+
+.star-container .fa-star {
+  margin-right: 24px; /* Adjust the value as needed */
+}
 .headerreview {
   padding: 25px;
   text-align: center;
@@ -296,3 +303,6 @@ img {
 .card-body{
 	color: black;
 }
+.new4 {
+      border-top: 5px solid #ae0909; /* Change 'red' to whatever color you prefer */
+    }
