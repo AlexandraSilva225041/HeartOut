@@ -96,8 +96,26 @@ footer a:hover {
 img {
   border-radius: 3%;
 }
-.image-container {
-  background-image: url("../images/redhands.jpg"); /* The image used - important! */
+.image-container-one {
+  background-image: url("../images/container-one.jpg"); /* The image used - important! */
+  background-size: cover;
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 300px; /* Some height */
+}
+.image-container-two {
+  background-image: url("../images/container-two.jpg"); /* The image used - important! */
+  background-size: cover;
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 300px; /* Some height */
+}
+.image-container-three {
+  background-image: url("../images/card-eight-thumbnail.jpg"); /* The image used - important! */
+  background-size: cover;
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 300px; /* Some height */
+}
+.image-container-four {
+  background-image: url("../images/container-four.jpg"); /* The image used - important! */
   background-size: cover;
   position: relative; /* Needed to position the cutout text in the middle of the image */
   height: 300px; /* Some height */
@@ -121,16 +139,27 @@ img {
 	background-color: black;
   color: white;
   mix-blend-mode: multiply;
-  font-size: 5vw; /* Responsive font size */
+  font-size: 7vw; /* Responsive font size */
   font-weight: bold;
   margin: 0 auto; /* Center the text container */
   padding: 10px;
-  width: 50%;
+  width: 70%;
   text-align: center; /* Center text */
   position: absolute; /* Position text */
   top: 50%; /* Position text in the middle */
   left: 50%; /* Position text in the middle */
   transform: translate(-50%, -50%); /* Position text in the middle */
+}
+.example-column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.example-row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .checked {
   color: orange;
@@ -304,5 +333,5 @@ img {
 	color: black;
 }
 .new4 {
-      border-top: 5px solid #ae0909;/* Change 'red' to whatever color you prefer */
+      border-top: 5px solid #ae0909;
 }
