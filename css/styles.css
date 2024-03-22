@@ -140,7 +140,7 @@ img {
 }
 
 .star-container .fa-star {
-  margin-right: 24px; /* Adjust the value as needed */
+  margin-right: 30px; /* Adjust the value as needed */
 }
 .headerreview {
   padding: 25px;
@@ -304,5 +304,5 @@ img {
 	color: black;
 }
 .new4 {
-      border-top: 5px solid #ae0909; /* Change 'red' to whatever color you prefer */
-    }
+      border-top: 5px solid #ae0909;/* Change 'red' to whatever color you prefer */
+}
