@@ -340,7 +340,8 @@ img {
   color: #fff;
 }
 .btn-review:hover {
-  opacity: .5;
+	background-color: #ae0909;
+  opacity: 1;
 }
 .btn-large{
 	padding:15px 32px;
