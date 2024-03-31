@@ -335,8 +335,12 @@ img {
 .new4 {
       border-top: 5px solid #ae0909;
 }
-.btn{
+.btn-review {
 	background-color: #ae0909;
+  color: #fff;
+}
+.btn-review:hover {
+  opacity: .5;
 }
 .btn-large{
 	padding:15px 32px;
