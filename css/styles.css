@@ -10,13 +10,6 @@ body {
   background-color: #1e1e1e
 }
 
-.bg {
-  background-image: url(images-css/background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
 .roboto-regular {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
@@ -58,6 +51,13 @@ footer a:hover {
 }
 
 /* Background of Home Page */
+
+.bg {
+  background-image: url(images-css/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
 /* Hero Section shadow */
 
@@ -351,7 +351,16 @@ img {
 }
 .btn-review:hover {
 	background-color: #ae0909;
-  opacity: 0.98;
+  opacity: 0.7;
+}
+
+.btn-check-reviews {
+  background-color: #FF8000;
+  color: #1e1e1e;
+}
+.btn-check-reviews:hover {
+  background-color: #FF8000;
+  opacity: 0.7;
 }
 .btn-large{
 	padding:15px 32px;
