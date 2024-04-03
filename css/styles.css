@@ -31,16 +31,23 @@ header {
 	background-color: #2E0038;
 }
 
-/* Changing the background color for the navigation bar */
+/* Changing the background color for the navigation bar and footer */
 
 .navbar {
 	background-color: #D9D9D9;
 }
 
+/* Changing the background color of the footer */
+
+.footer {
+  background-color: #D9D9D9;
+  color: #1e1e1e;
+}
+
 /* Effect on social media buttons */
 
 footer a:hover {
-	opacity: .5;
+	opacity: .7;
 }
 
 /* Corporate navbar */
@@ -68,7 +75,15 @@ footer a:hover {
 		0 0 .5em white;
 }
 
-.rightbox{
+.text-next-to-image {
+  position: absolute;
+  top: 0; 
+  left: 300px; 
+  margin: 0; 
+  padding: 0;
+ }
+
+ .rightbox{
   color: #000;
   background-color:#AE0909;
   width: 50%;
@@ -95,6 +110,7 @@ footer a:hover {
   float: left;
   width: 33.33%;
   padding: 25px;
+  margin-right: 25px;
 }
 
 /* Clear floats after image containers */
@@ -365,4 +381,12 @@ img {
 .btn-large{
 	padding:15px 32px;
 	font-size: 25px;
+}
+
+.tcontent {
+  color: #fffcf8;
+}
+
+.id {
+  font: "Roboto";
 }
