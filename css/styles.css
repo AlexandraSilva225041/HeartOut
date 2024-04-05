@@ -126,25 +126,25 @@ img {
   background-image: url("../images/container-one.jpg"); /* The image used - important! */
   background-size: cover;
   position: relative; /* Needed to position the cutout text in the middle of the image */
-  height: 250px; /* Some height */
+  height: 300px; /* Some height */
 }
 .image-container-two {
   background-image: url("../images/container-two.jpg"); /* The image used - important! */
   background-size: cover;
   position: relative; /* Needed to position the cutout text in the middle of the image */
-  height: 250px; /* Some height */
+  height: 300px; /* Some height */
 }
 .image-container-three {
   background-image: url("../images/card-eight-thumbnail.jpg"); /* The image used - important! */
   background-size: cover;
   position: relative; /* Needed to position the cutout text in the middle of the image */
-  height: 250px; /* Some height */
+  height: 300px; /* Some height */
 }
 .image-container-four {
   background-image: url("../images/container-four.jpg"); /* The image used - important! */
   background-size: cover;
   position: relative; /* Needed to position the cutout text in the middle of the image */
-  height: 250px; /* Some height */
+  height: 300px; /* Some height */
 }
 .text {
 	background-color: black;
@@ -162,14 +162,14 @@ img {
   transform: translate(-50%, -50%); /* Position text in the middle */
 }
 .text-smaller {
-	background-color: #2e0038;
+	background-color: black;
   color: white;
   mix-blend-mode: multiply;
-  font-size: 6vw; /* Responsive font size */
+  font-size: 5vw; /* Responsive font size */
   font-weight: bold;
   margin: 0 auto; /* Center the text container */
   padding: 10px;
-  width: 70%;
+  width: 60%;
   text-align: center; /* Center text */
   position: absolute; /* Position text */
   top: 50%; /* Position text in the middle */
@@ -385,23 +385,4 @@ img {
 
 .tcontent {
   color: #fffcf8;
-}
-
-.id {
-  font: "Roboto";
-}
-.bg-row{
-	background-color: #FF8000;
-}
-.line {
-      border-top: 5px solid #FF8000;
-}
-.fline {
-      border-top: 5px solid #2e0038;
-}
-.aline {
-      border-top: 5px solid #49662c;
-}
-.nline {
-      border-top: 5px solid #ae0909;
 }
