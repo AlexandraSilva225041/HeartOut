@@ -165,11 +165,11 @@ img {
 	background-color: #2e0038;
   color: white;
   mix-blend-mode: multiply;
-  font-size: 4vw; /* Responsive font size */
+  font-size: 6vw; /* Responsive font size */
   font-weight: bold;
   margin: 0 auto; /* Center the text container */
   padding: 10px;
-  width: 50%;
+  width: 70%;
   text-align: center; /* Center text */
   position: absolute; /* Position text */
   top: 50%; /* Position text in the middle */
