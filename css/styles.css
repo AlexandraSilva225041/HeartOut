@@ -393,3 +393,12 @@ img {
 .bg-row{
 	background-color: #FF8000;
 }
+.line {
+      border-top: 5px solid #FF8000;
+}
+.fline {
+      border-top: 5px solid #2e0038;
+}
+.aline {
+      border-top: 5px solid #49662c;
+}
