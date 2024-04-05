@@ -386,3 +386,15 @@ img {
 .tcontent {
   color: #fffcf8;
 }
+.line {
+      border-top: 5px solid #FF8000;
+}
+.nline {
+      border-top: 5px solid #ae0909;
+}
+.fline {
+      border-top: 5px solid #2E0038;
+}
+.aline {
+      border-top: 5px solid #49662C;
+}
